@@ -1,0 +1,56 @@
+:root {
+  // colours
+
+  --clr-primary: #171617;
+  --clr-pink: #F26334;
+  --clr-white: #fff;
+
+
+  // font family
+
+  --ff-primary: "GSKPrecision Regular";
+  --ff-bold: "GSKPrecision Bold";
+  // font size
+  --fs-200: 0.625rem;
+  --fs-300: 0.875rem; // btn
+  --fs-400: 1rem; // p
+  --fs-500: 1.25rem; // subtitle  + question
+  --fs-600: 1.5rem; // sub heading
+  --fs-700: 2.125rem; // section title
+  --fs-800: 3rem; // main heading
+
+  @media (min-width: 50em) {
+    --fs-300: 0.875rem; // btn
+    --fs-400: 1rem; // p
+    --fs-500: 1.5rem; // subtitle  + question
+    --fs-600: 2.125rem; // sub heading
+    --fs-700: 3.68rem; // section title
+    --fs-800: 5rem; // main heading 5.94rem
+  }
+
+  // font weight
+
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  // border radius
+
+  --border-radius: 9px;
+
+  // linear-gradient
+
+  --linear-gradient: linear-gradient(rgba(92, 42, 229, 0.4), rgb(92, 42, 229));
+
+  // headers min height
+  
+  --header-height: 4.8rem;
+  --secondary-header-height: 3.75rem;
+
+  // animation
+
+  --animation-350: 350ms ease-in;
+  --animation-450: 450ms ease-in;
+  --animation-750: 750ms ease-in;
+}
